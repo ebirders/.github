@@ -1,6 +1,6 @@
-# eBird Project
+# eBirders Project
 
-The eBird Project is a collection of libraries, Jupyter Notebooks,
+The eBirders Project is a collection of libraries, Jupyter Notebooks,
 Django apps, and Django sites for working with data from [eBird.org](https://ebird.org).
 
 The projects, from the bottom of the stack, to the top, consist of:
