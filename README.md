@@ -23,6 +23,10 @@ The projects, from the bottom of the stack, to the top, consist of:
   Django app for loading data from eBird, this time from the  
   [eBird Basic Dataset](https://science.ebird.org/en/use-ebird-data/download-ebird-data-products).
 
+* [ebird-dataset-explorer](https://git.sr.ht/~smackay/ebird-dataset-explorer) - a 
+  Django-based web site for browsing a database containing observations from the  
+  eBird Basic Dataset.
+
 * [ebird-notebooks](https://git.sr.ht/~smackay/ebird-notebooks) - a collection
   of Jupyter Notebooks for analysing data downloaded from the eBird API.
 
