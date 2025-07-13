@@ -19,7 +19,7 @@ The projects, from the bottom of the stack, to the top, consist of:
   use this as the basic building block for doing analysis with Jupyter 
   Notebooks, or an entire web site.
 
-* [ebird-dataset](https://git.sr.ht/~smackay/ebird-dataset) - a reusable
+* [ebird-dataset-data](https://git.sr.ht/~smackay/ebird-dataset-data) - a reusable
   Django app for loading data from eBird, this time from the  
   [eBird Basic Dataset](https://science.ebird.org/en/use-ebird-data/download-ebird-data-products).
 
