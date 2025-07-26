@@ -5,10 +5,6 @@ Django apps, and Django sites for working with data from [eBird.org](https://ebi
 
 The projects, from the bottom of the stack, to the top, consist of:
 
-* [ebird-codes](https://git.sr.ht/~smackay/ebird-codes) - constants, codes, 
-  reference data, and utility functions that provide a single point of reference
-  for all the eBird Projects.
-
 * [ebird-api-requests](https://git.sr.ht/~smackay/ebird-api-requests) - a set of
   python functions for accessing the [eBird API 2.0](https://documenter.getpostman.com/view/664302/S1ENwy59)
   to download checklists, observations, locations and species, so you can 
@@ -38,3 +34,18 @@ The projects, from the bottom of the stack, to the top, consist of:
 * [ebirders-pt](https://git.sr.ht/~smackay/ebirders-pt) - a Django based web
   site, delivering news and information on what has been seen in Portugal.
   Visit the site at [https://www.ebirders.pt](https://www.ebirders.pt).
+ 
+## Project Information
+
+* Announcements: https://lists.sr.ht/~smackay/ebirders-announce
+* Discussions: https://lists.sr.ht/~smackay/ebirders-discuss
+* Development: https://lists.sr.ht/~smackay/ebirders-develop
+
+This repository is also mirrored on Github:
+
+* Repository: https://github.com/StuartMacKay/ebirders-project
+
+# Licenses
+
+All eBirders projects are released under the terms of the `[MIT](https://opensource.org/licenses/MIT) license.
+
