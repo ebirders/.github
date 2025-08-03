@@ -5,47 +5,36 @@ Django apps, and Django sites for working with data from [eBird.org](https://ebi
 
 The projects, from the bottom of the stack, to the top, consist of:
 
-* [ebird-api-requests](https://git.sr.ht/~smackay/ebird-api-requests) - a set of
+* [ebird-api-requests](https://github.com/ebirders/ebird-api-requests) - a set of
   python functions for accessing the [eBird API 2.0](https://documenter.getpostman.com/view/664302/S1ENwy59)
   to download checklists, observations, locations and species, so you can 
   find out what has been seen, anywhere in the world.
 
-* [ebird-api-data](https://git.sr.ht/~smackay/ebird-api-data) - a reusable
+* [ebird-api-data](https://github.com/ebirders/ebird-api-data) - a reusable
   Django app for loading data from the eBird API into a database. You can
   use this as the basic building block for doing analysis with Jupyter 
   Notebooks, or an entire web site.
 
-* [ebird-dataset-data](https://git.sr.ht/~smackay/ebird-dataset-data) - a reusable
+* [ebird-api-explorer](https://github.com/ebirders/ebird-api-explorer) - a 
+  Django-based web site for browsing a database containing observations from the  
+  eBird API.
+
+* [ebird-dataset-data](https://github.com/ebirders/ebird-dataset-data) - a reusable
   Django app for loading data from eBird, this time from the  
   [eBird Basic Dataset](https://science.ebird.org/en/use-ebird-data/download-ebird-data-products).
 
-* [ebird-dataset-explorer](https://git.sr.ht/~smackay/ebird-dataset-explorer) - a 
+* [ebird-dataset-explorer](https://github.com/ebirders/ebird-dataset-explorer) - a 
   Django-based web site for browsing a database containing observations from the  
   eBird Basic Dataset.
 
-* [ebird-notebooks](https://git.sr.ht/~smackay/ebird-notebooks) - a collection
+* [ebird-notebooks](https://github.com/ebirders/ebird-notebooks) - a collection
   of Jupyter Notebooks for analysing data downloaded from the eBird API.
 
-* [ebird-scrapers](https://git.sr.ht/~smackay/ebird-scrapers) - alas, not
+* [ebird-pages](https://github.com/ebirders/ebird-pages) - alas, not
   all of the most interesting data is available via the eBird API. This 
   project provides scrapers for the "Recent Checklists" page, for any region,
   and for individual checklists.
 
-* [ebirders-pt](https://git.sr.ht/~smackay/ebirders-pt) - a Django based web
-  site, delivering news and information on what has been seen in Portugal.
-  Visit the site at [https://www.ebirders.pt](https://www.ebirders.pt).
- 
-## Project Information
-
-* Announcements: https://lists.sr.ht/~smackay/ebirders-announce
-* Discussions: https://lists.sr.ht/~smackay/ebirders-discuss
-* Development: https://lists.sr.ht/~smackay/ebirders-develop
-
-This repository is also mirrored on Github:
-
-* Repository: https://github.com/StuartMacKay/ebirders-project
-
 # Licenses
 
 All eBirders projects are released under the terms of the `[MIT](https://opensource.org/licenses/MIT) license.
-
